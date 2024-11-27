@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const LaunchItem = React.forwardRef(({ launch }, ref) => {
+const Index = React.forwardRef(({ launch }, ref) => {
     const [showDetails, setShowDetails] = useState(false);
 
     useEffect(() => {
@@ -68,4 +68,4 @@ const LaunchItem = React.forwardRef(({ launch }, ref) => {
     );
 });
 
-export default LaunchItem;
+export default Index;
